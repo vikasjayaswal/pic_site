@@ -27,9 +27,18 @@
   font-size: 64px;
 }
 
-.caption {
+.caption-url {
 	display: inline-block;
   width: 70px;
+}
+
+.caption-file {
+	display: inline-block;
+  width: 70px;
+}
+
+.hidden {
+	display: none;
 }
 
 .upload_controls {
@@ -38,11 +47,17 @@
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
 }
 
 .file_dialog {
+	height: 32px;
 	float: left;
+	width: 75%;
+}
+
+.address {
+	float: left;
+	height: 32px;
 	width: 75%;
 }
 
