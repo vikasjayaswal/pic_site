@@ -1,8 +1,3 @@
-
-.main_icon {
-  font-size: 64px
-}
-
 .active {
   color: #4682b4;
 }
@@ -16,47 +11,43 @@
 }
 
 .upload_selector {
-  height: 74px;
-  width: 150px;
+  height: 100px;
+  width: 180px;
   margin-top: 30px;
   margin-left:auto;
-  margin-right:auto;
+  margin-right:auto;  
+  text-align: center;
 }
 
-.icon-file-picture{
-  float:left;
+.icon-button {
+	margin: 5px;
+	display: inline-block;
+  width: 70px;
+  height: 70px;  
+  font-size: 64px;
 }
 
-.icon-earth {
-  float:right;
+.caption {
+	display: inline-block;
+  width: 70px;
 }
 
 .upload_controls {
   height: 40px;
-  width: 500px;
-  margin-top: 30px;
+  width: 400px;
+  margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  clear:both;
-  text-align: center;
-}
-.address {
-  width: 80%;
-  float: left;
-  height: 32px;
+  border: 1px solid black;
 }
 
-.hidden {
-  display: none;
-}
-
-.file_dialog{
-  
-  float: left;
+.file_dialog {
+	float: left;
+	width: 75%;
 }
 
 .upload_file {
-  float: right;
+	float: right;
 }
 
 .main_image

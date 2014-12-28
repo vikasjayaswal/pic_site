@@ -2,6 +2,7 @@ $(document).ready(function() {
     $(".icon-file-picture").click(function() {
         $(this).toggleClass("active");
         $(".icon-earth").toggleClass("active");
+        $(".file_paragraph").toggleClass("active");
         $(".address").toggleClass("hidden");
         $(".file_dialog").toggleClass("hidden");
     });
